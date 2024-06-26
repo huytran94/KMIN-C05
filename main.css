@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway";
+  background-color: #f1f1f1;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background: #173451;
+  padding: 20px 130px;
+}
+.title {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  float: right;
+}
+.title__main {
+  color: #fcbf16;
+  font-style: italic;
+}
+.img {
+  display: inline-block;
+}
+.img--logo {
+  width: 5%;
+}
+
+/* main style */
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+
+  padding-top: 50px;
+}
+
+.article {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.article--reverse {
+  flex-direction: row-reverse;
+}
+
+.article__content {
+  padding: 0 15px;
+}
+
+.article__content--reverse {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.article__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.article__text {
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+
+.btn {
+  color: white;
+  background-color: #fcbf16;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, #fcbf16, #992154);
+}
+
+.btn--big {
+  padding: 10px 20px;
+  max-width: 190px;
+}
+
+.btn--small {
+  padding: 10px 0;
+  max-width: 120px;
+}
+
+main .banner {
+  margin: 30px 15px;
+}
+
+.banner .article--big {
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.banner .article--big .img--big {
+  width: 100%;
+}
+
+.banner .article--big .btn--big {
+  margin: 0 auto;
+}
+
+/* article list */
+.article-list .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.article-list .article--small {
+  width: 50%;
+  align-items: flex-start;
+}
+
+.article--small .img--small {
+  width: 25%;
+}
+
+.article--reverse .btn {
+  margin-left: auto;
+}
+
+/*  */
+
+footer {
+  background-color: #173451;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
